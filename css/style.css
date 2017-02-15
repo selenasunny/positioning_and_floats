@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.main {
+	width: 562px;
+	margin: 200px auto;
+	position: relative;
+}
+/*pages and bookmarks*/
+
+.page {
+	width: 519px;
+	border: 2px solid #000;
+	height: 745px;
+	position: relative;
+}
+
+.page-top {
+	position: relative;	
+	background-color: #EBEBEB;
+	z-index: 3;	
+}
+
+.page-middle {	
+	background-color: #CCCCCC;
+	position: absolute;	
+	left: 21px;
+	top: 19px;	
+	z-index: 2;	
+}
+
+.page-back {
+	background-color: #ACACAC;	
+	position: absolute;
+	left: 40px;
+	top: 38px;
+}
+
+.page::before {
+	position: absolute;
+	border: 2px solid black;
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.page-top::before {
+	content: "";
+	right: -84px;
+	top: 37px;
+	width: 107px;
+	height: 31px;
+	background-color: #F68E56;	
+}
+
+.page-middle::before {
+	content: "";
+	right: -51px;
+	top: 41px;
+	width: 80px;
+	height: 30px;
+	background-color: #39B54A;	
+}
+
+.page-back::before {
+	content: "";
+	right: -18px;
+	top: 47px;
+	width: 60px;
+	height: 30px;
+	background-color: #00AEEF;	
+}
+
+.wrapper {
+	margin: 30px;
+}
+
+/*main page*/
+h1 {
+	font-size: 1.5rem; 
+	font-weight: 100;
+	margin-bottom: 12px; 
+}
+
+.top .img-top {
+	float: left;
+	margin: 0 21px 15px 1px;
+	width: 207px;
+	height: 111px;
+}
+
+.top p {
+	font-size: 0.7rem; 
+	letter-spacing: 0.3px;
+	line-height: 0.92rem;
+}
+
+.top .img-bottom {
+	float: right;
+	width: 140px;
+	height: 140px;	
+}
+
+.bottom {
+	margin-top: 40px;
+}
+
+.bottom h2 {
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.bottom .joke:nth-child(2n) {
+	margin-right: 65px;
+}
+
+.bottom .joke:nth-child(n) {
+	margin-bottom: 10px;
+}
+
+.footer p {
+	font-size: 0.55rem; 
+	text-align: center;
+}
+
+/*static block*/
+.static-block {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background-color: #FBAF5D;
+	border: 1px solid black;	
+	text-align: center;	
+	min-height: 50px;
+}
+.static-block p {
+	font-size: 1rem;
+	line-height: 0.15rem;   
+}
+
+ul {
+	margin: 0; 
+	padding: 0; 	
+}
+
+li {
+	text-indent: 1000%;	
+	display:inline; 
+	float: left;
+	list-style: none; 
+	width: 29px;
+	padding: 0 0 10px 0;		
+}
+
+li a {
+	background: url(../img/social_media_icons.png) no-repeat;	
+	display: block;
+}
+
+.icon-facebook a {
+	background-position: 4px -1px;
+}
+
+.icon-twitter a {
+	background-position: -25px -1px;
+}
+
+.icon-instagram a {
+	background-position: -52px -1px;
+}
