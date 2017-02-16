@@ -21,8 +21,7 @@ body {
 
 .page-top {
 	position: relative;	
-	background-color: #EBEBEB;
-	z-index: 3;	
+	background-color: #EBEBEB;		
 }
 
 .page-middle {	
@@ -30,7 +29,7 @@ body {
 	position: absolute;	
 	left: 21px;
 	top: 19px;	
-	z-index: 2;	
+	z-index: -1;	
 }
 
 .page-back {
@@ -38,6 +37,7 @@ body {
 	position: absolute;
 	left: 40px;
 	top: 38px;
+	z-index: -2;
 }
 
 .page::before {
