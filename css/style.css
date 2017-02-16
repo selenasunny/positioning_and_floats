@@ -131,7 +131,7 @@ h1 {
 .static-block {
 	position: fixed;
 	right: 0;
-	bottom: 0;
+	bottom: 250px;
 	background-color: #FBAF5D;
 	border: 1px solid black;	
 	text-align: center;	
