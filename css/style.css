@@ -13,10 +13,9 @@ body {
 /*pages and bookmarks*/
 
 .page {
-	width: 519px;
 	border: 2px solid #000;
-	height: 745px;
-	position: relative;
+	width: 100%;
+	height: 100%;	
 }
 
 .page-top {
